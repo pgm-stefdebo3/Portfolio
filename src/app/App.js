@@ -38,6 +38,9 @@ function App() {
               </Canvas>
             </div>
           </div>
+          <div className='main__content'>
+            
+          </div>
 
         </div>
     </div>
