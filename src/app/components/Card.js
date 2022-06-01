@@ -2,8 +2,7 @@ import React from 'react';
 import {
   Toast,
   ToastHeader,
-  ToastBody,
-  Button
+  ToastBody
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -22,11 +21,11 @@ export default class Card extends React.Component {
   }
   render() {
     return (
-      <div className="p-3 my-2 rounded container-md" >
+      <div className="p-3 my-2 rounded" >
         <Toast>
           <div className='card__header-container' onClick={() => this.click()}>
           <ToastHeader>
-            <div className='header__content' ><h3>{this.props.toastHeader}</h3><div className="arrow__container">{this.state.active ? "<" : ">"}</div></div>
+            <div className='header__content ' ><h3>{this.props.toastHeader}</h3><div className="arrow__container">{this.state.active ? "<" : ">"}</div></div>
           </ToastHeader>
           </div>
           <ToastBody>

@@ -1,37 +1,130 @@
+.toast {
+  width: 425px;
+  background-color: #0E0E0E;
+}
+
 .toast-header {
   font-size: 1.3rem;
   background-color: black;
   color: white;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .toast-body {
   font-size: 1rem;
-  background-color: rgb(54, 54, 54);
+  background-color: #434242;
   color: white;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.quote-container {
+  text-align: center;
+  width: max-content;
+  max-width: 80vw;
+  margin: 4rem auto;
+  padding-bottom: 5rem;
+}
+
+.quote {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.quote_author {
+  margin-left: auto;
+  margin-right: 1rem;
+  width: max-content;
+  color: #34FEE3;
+
 }
 
 .toast {
   margin-top: 4rem;
 }
+
 .toast-body p {
   text-align: left;
-  width: max-content;
+  width: 100%;
+  overflow-wrap: normal;
 }
 
 .card--2 {
-  margin-left: 10rem;
   margin-top: -5rem;
+}
+
+h2 {
+  margin-left: 3rem;
+  color: white;
+}
+
+.text--secondary {
+  color: #34FEE3
 }
 
 .main__intro {
   display: flex;
-  justify-content: space-evenly;
   font-weight: 600;
   padding: 5rem;
   height: 650px;
   max-width: 1320px;
   margin: 0 auto;
-  gap: 4rem;
+}
+
+.intro--left {
+z-index: 2;
+align-self: center;
+}
+
+.intro--right {
+  margin-left: calc(-45rem + 100% * 0.9);
+  flex-shrink: 1;
+}
+
+.desktop-only {
+  display: block;
+}
+
+#about_me {
+  height: 5rem;
+}
+
+.description {
+  margin: 5rem auto;
+  margin-top: 0;
+  text-align: center;
+}
+
+.description p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.description__title {
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  .main__intro.container-md {
+    margin: 0 auto;
+    padding: 0;
+    width: 80vw;
+    max-width: 100%;
+  }
+  .toast {
+    width: 100%;
+  }
+  .toast-header {
+    width: 82vw;
+  }
+  .toast-body {
+    width: 82vw;
+  }
+  .p-3 {
+    padding-left: 0!important;
+  }
+  .desktop-only {
+    display: none;
+  }
 }
 
 .toast-body  {
@@ -78,4 +171,62 @@
 
 .text--important {
   color: #34FEE3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skill__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.Skill__container {
+  background-color: #434242;
+  color: #ffffff;
+  height: 11rem;
+  width: 11rem;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  gap: 0.4rem;
+  padding: 1.5rem;
+}
+
+.Skill__container svg {
+  width: 110px;
+  height: 110px;
+}
+
+.main__content {
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 475px) {
+  
+  
+
+.skill__list {
+  gap: 8vw;
+}
+.Skill__container {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 0.7rem;
+  padding: 3vw;
+  font-size: 6vw;
+}
+
+.Skill__container svg {
+  width: 25vw;
+  height: 25vw;
+}
 }

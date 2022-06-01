@@ -1,5 +1,7 @@
-import Box from "./Box";
+import Sphere from "./Sphere";
 import Card from "./Card";
 import NavBar from "./Navbar";
+import SkillList from "./skills";
+import Quote from "./Quote";
 
-export {Box, Card, NavBar};
+export {Sphere, SkillList, Card, NavBar, Quote};
