@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import { NavBar, Card, Sphere, SkillList, Quote } from './components';
+import { NavBar, Card, Sphere, SkillList, Quote, TopButton, Projects } from './components';
 import { Canvas } from "react-three-fiber";
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
                   <p>firstName :  <span className='text--important'>"Stef" ,</span></p>
                   <p>lastName :  <span className='text--important'>"De Boeck" ,</span></p>
                   <p>email :  "stef.db@hotmail.com" ,</p>
+                  <p>age : 23</p>
                 </>}/>
               </div>
               <div className='card--2 offset-md-2'>
@@ -41,13 +42,14 @@ function App() {
             <div className='description'>
               <h2 className='description__title'>About Me</h2>
               <p className='description__text'>Hello world, I am Stef De Boeck.</p>
-              <p className='description__text'>And I aspire to be a Senior Back-End Developer!</p>
+              <p className='description__text'>And I aspire to be a Senior Back End Developer!</p>
             </div>
             <h2>My <span className='text--secondary'>Skills</span></h2>
             <SkillList/>
-          </div>
           <Quote/>
-
+          <Projects/>
+          </div>
+        <TopButton/>
         </div>
     </div>
   );

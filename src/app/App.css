@@ -103,6 +103,55 @@ align-self: center;
   margin: 2rem 0;
 }
 
+.to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.quote-container {
+  padding-top: 6rem;
+}
+
+.projects {
+  padding-top: 4rem;
+}
+
+.projects h2 {
+  margin-bottom: 5rem;
+}
+
+.carousel-caption {
+  background-color: #434242;
+}
+
+.carousel-control-next-icon {
+  background-color: #434242;
+  padding: 2rem;
+}
+
+.carousel-control-prev-icon {
+  background-color: #434242;
+  padding: 2rem;
+
+}
+
+.to-top-button .btn.btn-secondary {
+  background-color: #434242;
+  width: 3rem;
+  height: 3rem;
+}
+
+.to-top-button .btn.btn-secondary svg{
+  color: #34FEE3;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .main__intro.container-md {
     margin: 0 auto;
