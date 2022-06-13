@@ -5,14 +5,14 @@
 
 .toast-header {
   font-size: 1.3rem;
-  background-color: black;
+  background-color: #414141!important;
   color: white;
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .toast-body {
   font-size: 1rem;
-  background-color: #434242;
+  background-color: #252525;
   color: white;
   border-radius: 0 0 0.5rem 0.5rem;
 }
@@ -255,6 +255,8 @@ align-self: center;
 .navbar .container-md {
   display: flex;
   justify-content: space-between;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .navbar-collapse {
@@ -281,7 +283,7 @@ ul {
 }
 
 .Skill__container {
-  background-color: #434242;
+  background-color: #1d1d1d;
   color: #ffffff;
   height: 11rem;
   width: 11rem;
@@ -311,6 +313,7 @@ ul {
 }
 
 .contact__container a {
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 

@@ -10,7 +10,7 @@ const contactList = [{
 },{
   title: "Feel free to call or text me",
   icon: <FaPhoneSquareAlt/>,
-  link: "callto:0493213046",
+  link: "tel:0493213046",
   description: "0493213046"
 }]
 

@@ -20,7 +20,7 @@ const Socials = () => {
       <h2>Follow me on</h2>
       {socialList.map((social) => {
         return (
-          <a href={social.link}>
+          <a href={social.link} target="_blank" rel="noreferrer">
             {social.icon}
           </a>
         )
