@@ -85,7 +85,7 @@ class Projects extends Component {
     });
 
     return (
-      <div id="projects" className='projects'>
+      <div className='projects'>
         <h2>My <span className='text--important'>Projects</span></h2>
         <Carousel
           activeIndex={activeIndex}

@@ -22,7 +22,6 @@
   width: max-content;
   max-width: 80vw;
   margin: 4rem auto;
-  padding-bottom: 5rem;
 }
 
 .quote {
@@ -113,10 +112,9 @@ align-self: center;
   padding-top: 6rem;
 }
 
-.projects {
-  padding-top: 4rem;
+#projects {
+  padding-top: 8rem;
 }
-
 .projects h2 {
   margin-bottom: 5rem;
 }

@@ -26,9 +26,9 @@ const TopButton = () =>{
   window.addEventListener('scroll', toggleVisible);
   
   return (
-    <div className='to-top-button' style={{display: visible ? 'inline' : 'none'}}>
+    <div className='to-top-button' style={{display: visible ? 'inline' : 'none'}}  onClick={scrollToTop}>
       <Button>
-        <FiArrowUpCircle onClick={scrollToTop} />
+        <FiArrowUpCircle />
       </Button>
     </div>
   );

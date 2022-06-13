@@ -47,6 +47,7 @@ function App() {
             <h2>My <span className='text--secondary'>Skills</span></h2>
             <SkillList/>
           <Quote/>
+          <div id="projects"></div>
           <Projects/>
           <Contact/>
           </div>
