@@ -27,7 +27,7 @@ export default class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="dark" dark expand="md" fixed='top' container='md'>
-          <NavbarBrand href="/">De Boeck Stef</NavbarBrand>
+          <NavbarBrand href="#top">De Boeck Stef</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -38,7 +38,7 @@ export default class NavBar extends React.Component {
                 <NavLink href="#projects">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Contact me</NavLink>
+                <NavLink href="#contact-me">Contact me</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

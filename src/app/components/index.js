@@ -5,5 +5,6 @@ import SkillList from "./skills";
 import Quote from "./Quote";
 import TopButton from "./Topbutton";
 import Projects from "./Projects";
+import Contact from "./Contact/Contact";
 
-export {Sphere, SkillList, Card, NavBar, Quote, TopButton, Projects};
+export {Sphere, SkillList, Card, NavBar, Quote, TopButton, Projects, Contact};

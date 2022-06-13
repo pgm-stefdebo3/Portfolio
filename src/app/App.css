@@ -136,6 +136,50 @@ align-self: center;
 
 }
 
+.contact-container {
+  padding-top: 13rem;
+  padding-bottom: 6rem;
+}
+
+.contact-container h2 {
+  margin-bottom: 3rem;
+}
+
+.contact__flex {
+  display: flex;
+}
+
+.socials {
+  margin-left: 3rem;
+}
+
+.socials h2 {
+  margin-left: 0;
+}
+
+.socials a {
+  color: white;
+}
+
+.socials a:hover {
+  color: #34FEE3;
+}
+
+
+.socials a svg {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+}
+
+.contact-form__container {
+  margin-left: 3rem;
+}
+
+.contact-form__container h2 {
+  margin-left: 0;
+}
+
 .to-top-button .btn.btn-secondary {
   background-color: #434242;
   width: 3rem;
@@ -158,6 +202,9 @@ align-self: center;
     padding: 0;
     width: 80vw;
     max-width: 100%;
+  }
+  .contact__flex {
+    flex-direction: column;
   }
   .toast {
     width: 100%;
@@ -257,6 +304,38 @@ ul {
 
 .main__content {
   padding-bottom: 5rem;
+}
+
+.contact__container h4 {
+  color: rgb(255, 255, 255);
+}
+
+.contact__container a {
+  color: rgb(255, 255, 255);
+}
+
+.contact__container a:hover {
+  color: #34FEE3;
+}
+
+.contact__container {
+  margin-top: 2rem;
+}
+
+.contact__content {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact__content p{
+  font-size: 1.2rem;
+}
+
+.contact__content svg{
+  width: 3rem;
+  height: 3rem;
 }
 
 @media (max-width: 475px) {

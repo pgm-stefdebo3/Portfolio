@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import { NavBar, Card, Sphere, SkillList, Quote, TopButton, Projects } from './components';
+import { NavBar, Card, Sphere, SkillList, Quote, TopButton, Projects, Contact } from './components';
 import { Canvas } from "react-three-fiber";
 
 function App() {
@@ -48,6 +48,7 @@ function App() {
             <SkillList/>
           <Quote/>
           <Projects/>
+          <Contact/>
           </div>
         <TopButton/>
         </div>
