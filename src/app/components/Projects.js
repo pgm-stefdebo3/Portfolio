@@ -6,29 +6,42 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import { FaGithubSquare } from 'react-icons/fa'
 
 import ArneQuinze from '../assets/images/Arne_quinze.png';
-import RockWerchter from '../assets/images/Rock_Werchter.png';
+import BabyPlanner from '../assets/images/BabyPlanner.png';
+import BabyPlannerTest from '../assets/images/BabyPlanner_test.png';
+import PgmPlatform from '../assets/images/PGM_Platform.png';
 import ToDoApp from '../assets/images/To_do_app.png';
 
 const items = [
   {
-    src: ArneQuinze,
+    src: BabyPlanner,
     altText: '1',
-    title: 'Arne Quinze',
-    description: 'I remade an existing website by Arne Quinze, An artist his disposition page.'
+    title: 'BabyPlanner',
+    description: 'I contributed in a team of 3 to a concept website/app to help women who just became a mother plan baby visits.',
+    link: 'https://github.com/pgm-stefdebo3/BabyPlanner'
   },
   {
-    src: RockWerchter,
+    src: PgmPlatform,
     altText: '2',
     title: 'Rock Werchter',
-    description: 'I made an existing website discerning the festival called Rock Werchter.'
+    description: 'To learn and apply the basics of React, GraphCMS and Apollo, I made a platform for PGM Artevelde.',
+    link: 'https://github.com/pgm-stefdebo3/PGM4'
+  },
+  {
+    src: ArneQuinze,
+    altText: '3',
+    title: 'Arne Quinze',
+    description: 'I remade an existing website by Arne Quinze, An artist his disposition page.',
+    link: 'https://github.com/pgmgent-atwork-1/atwork-1-project-1-pgm-stefdebo3'
   },
   {
     src: ToDoApp,
-    altText: '3',
+    altText: '4',
     title: 'To Do App',
-    description: 'To learn the basics of RESTfull, i made a to do app with basic CRUD and authentication.'
+    description: 'To learn the basics of RESTfull, i made a to do app with basic CRUD and authentication.',
+    link: 'https://github.com/pgmgent-pgm-3/opdracht-1-just-do-it-pgm-stefdebo3'
   }
 ];
 
@@ -79,7 +92,8 @@ class Projects extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.description} captionHeader={item.title} />
+          <CarouselCaption captionText={ item.description } captionHeader={item.title} />
+          <a className='github__icon' href={item.link} target='_blank' rel="noreferrer"><FaGithubSquare/></a>
         </CarouselItem>
       );
     });

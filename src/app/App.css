@@ -119,6 +119,24 @@ align-self: center;
   margin-bottom: 5rem;
 }
 
+a.github__icon svg {
+  width: 3rem;
+  height: 3rem;
+  margin-top: -5.2rem;
+  margin-left: 0.3rem;
+  color: #34FEE3;
+  background-color: #0E0E0E;
+  padding: 0.3rem;
+}
+
+.carousel-control-prev {
+  height: 90%;
+}
+.carousel-control-next {
+  height: 90%;
+}
+
+
 .carousel-caption {
   background-color: #434242;
 }
