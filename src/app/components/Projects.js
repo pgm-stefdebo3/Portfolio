@@ -10,7 +10,6 @@ import { FaGithubSquare } from 'react-icons/fa'
 
 import ArneQuinze from '../assets/images/Arne_quinze.png';
 import BabyPlanner from '../assets/images/BabyPlanner.png';
-import BabyPlannerTest from '../assets/images/BabyPlanner_test.png';
 import PgmPlatform from '../assets/images/PGM_Platform.png';
 import ToDoApp from '../assets/images/To_do_app.png';
 
