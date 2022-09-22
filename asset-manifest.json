@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.88e5b24c.css",
-    "main.js": "/Portfolio/static/js/main.2ca78bc1.js",
+    "main.js": "/Portfolio/static/js/main.cd02e18f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Rock_Werchter.png": "/Portfolio/static/media/Rock_Werchter.a487deae16ea6232d988.png",
+    "static/media/PGM_Platform.png": "/Portfolio/static/media/PGM_Platform.60ef3c8aedf27ea2e8e5.png",
     "static/media/Arne_quinze.png": "/Portfolio/static/media/Arne_quinze.1f58e92106bb16b06028.png",
     "static/media/To_do_app.png": "/Portfolio/static/media/To_do_app.9d0ff1c3d8c3b523708e.png",
+    "static/media/BabyPlanner.png": "/Portfolio/static/media/BabyPlanner.3da3ad461b4e8ffad58d.png",
     "index.html": "/Portfolio/index.html",
     "main.88e5b24c.css.map": "/Portfolio/static/css/main.88e5b24c.css.map",
-    "main.2ca78bc1.js.map": "/Portfolio/static/js/main.2ca78bc1.js.map",
+    "main.cd02e18f.js.map": "/Portfolio/static/js/main.cd02e18f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88e5b24c.css",
-    "static/js/main.2ca78bc1.js"
+    "static/js/main.cd02e18f.js"
   ]
 }
