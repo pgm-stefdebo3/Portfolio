@@ -5,8 +5,8 @@ import { FaPhoneSquareAlt , FaMailBulk } from 'react-icons/fa'
 const contactList = [{
   title: "Send me a mail",
   icon: <FaMailBulk/>,
-  link: "mailto:stef.db@hotmail.com",
-  description: "stef.db@hotmail.com"
+  link: "mailto:stefdeboeck7@gmail.com",
+  description: "stefdeboeck7@gmail.com"
 },{
   title: "Feel free to call or text me",
   icon: <FaPhoneSquareAlt/>,
