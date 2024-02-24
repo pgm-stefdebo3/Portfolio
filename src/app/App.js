@@ -42,10 +42,10 @@ function App() {
             <div className='description'>
               <h2 className='description__title'>About Me</h2>
               <p className='description__text'>Hello world, I am Stef De Boeck.</p>
-              <p className='description__text'>And I aspire to be a Senior Back End Developer!</p>
+              <p className='description__text'>And I aspire to be a Senior Full-stack Developer!</p>
             </div>
             <h2>My <span className='text--secondary'>Skills</span></h2>
-            <SkillList/>
+          <SkillList/>
           <Quote/>
           <div id="projects"></div>
           <Projects/>
