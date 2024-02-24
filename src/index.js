@@ -9,11 +9,11 @@ import { Home, Projects } from './app/pages';
 import './app/App.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
         <Routes>
             <Route element={<App />}>
-                <Route path="/Portfolio" element={<Home />} />
-                <Route path="/Portfolio/Projects" element={<Projects />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/Projects" element={<Projects />} />
             </Route>
         </Routes>
     </BrowserRouter>
