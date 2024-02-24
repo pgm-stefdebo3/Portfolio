@@ -3,6 +3,10 @@ import { NavBar, Card, Sphere, SkillList, Quote, TopButton,  Contact } from '../
 import { Canvas } from 'react-three-fiber';
 
 const Home = () => {
+    const birthDate = new Date('1998-08-19');
+    const currentDate = new Date();
+    const age = Math.floor((currentDate - birthDate) / (365.25 * 24 * 60 * 60 * 1000));
+
   return (
     <>
       <header>
@@ -19,7 +23,7 @@ const Home = () => {
                     <p>firstName: <span className="text--important">"Stef",</span></p>
                     <p>lastName: <span className="text--important">"De Boeck",</span></p>
                     <p>email: "stefdeboeck7@gmail.com",</p>
-                    <p>age: 23</p>
+                    <p>age: {age}</p>
                   </>
                 }
               />
