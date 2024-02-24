@@ -1,7 +1,7 @@
 const toastBodyData = {
     firstName: 'Stef',
     lastName: 'De Boeck',
-    email: 'stef.db@hotmail.com',
+    email: 'stefdeboeck7@gmail.com',
     age: 23
 };
 

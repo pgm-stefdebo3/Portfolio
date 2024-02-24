@@ -18,6 +18,7 @@ import {
     SiVuedotjs,
     SiNestjs,
     SiPhp,
+    SiTypescript,
 } from 'react-icons/si';
 
 const skillsData = [
@@ -88,6 +89,10 @@ const skillsData = [
     {
       name: "PHP",
       component: <SiPhp color='#7385b8'/>
+    },
+    {
+      name: "TypeScript",
+      component: <SiTypescript color='#007ACC'/>
     },
 
      
