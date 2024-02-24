@@ -1,11 +1,11 @@
-import Language from './Skill';
+import Skill from './Skill';
 import { skillsData } from '../../data';
 
 const SkillList = () => {
 
     return (
         <ul className={`skill__list`}>
-          {skillsData.map(skillprop => <Language skill={skillprop}/>)}
+          {skillsData.map(skillprop => <Skill skill={skillprop}/>)}
         </ul>
     );
 };
