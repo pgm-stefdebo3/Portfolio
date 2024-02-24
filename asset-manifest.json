@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.10604354.css",
-    "main.js": "/Portfolio/static/js/main.2258ee69.js",
+    "main.js": "/Portfolio/static/js/main.a689b1c8.js",
     "static/media/Whitehouse.png": "/Portfolio/static/media/Whitehouse.f515a10a584c8ff9854f.png",
     "static/media/Buurtsporen_2.png": "/Portfolio/static/media/Buurtsporen_2.e4c05ab1fac7f53d0458.png",
     "static/media/StarringJane.png": "/Portfolio/static/media/StarringJane.3372b7e22fce2fb958dc.png",
@@ -15,10 +15,10 @@
     "index.html": "/Portfolio/index.html",
     "static/media/arrow.svg": "/Portfolio/static/media/arrow.9e2318dc6aa7f67d019c15618f5c0ea9.svg",
     "main.10604354.css.map": "/Portfolio/static/css/main.10604354.css.map",
-    "main.2258ee69.js.map": "/Portfolio/static/js/main.2258ee69.js.map"
+    "main.a689b1c8.js.map": "/Portfolio/static/js/main.a689b1c8.js.map"
   },
   "entrypoints": [
     "static/css/main.10604354.css",
-    "static/js/main.2258ee69.js"
+    "static/js/main.a689b1c8.js"
   ]
 }
